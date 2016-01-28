@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreatePropertiesTable extends Migration
+class CreateProjectsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,10 +12,10 @@ class CreatePropertiesTable extends Migration
      */
     public function up()
     {
-        Schema::create('properties', function (Blueprint $table) {
+        Schema::create('projects', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name');
-            $table->string('location');
+            $table->string('projectName');
+            $table->string('description');
             $table->integer('userId');
             $table->enum('status', ['open', 'close']);
             $table->timestamps();
@@ -29,6 +29,6 @@ class CreatePropertiesTable extends Migration
      */
     public function down()
     {
-        Schema::drop('properties');
+        Schema::drop('projects');
     }
 }

@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="row center-vertically">
-        <div class=" center-align fadeMeIn"><span class="blue-grey-text lighten-4-text"> ~ Real State Application </span></div>
+        <div class=" center-align fadeMeIn"><span class="blue-grey-text lighten-4-text"> ~ KISS </span></div>
         <br>
         <div class=" center-align fadeMeIn"><span class="blue-grey-text lighten-4-text">Keep It Stupid Simple!</span></div>
         <br>
@@ -12,6 +12,6 @@
         </div>
         <br>
         <br>
-        <div class="row center-align fadeMeIn"><span class="blue-grey-text lighten-4-text">Copyright @ Rexon A. De los Reyes</span></div>
+        <div class="row center-align fadeMeIn"><span class="blue-grey-text lighten-4-text">for developers, by developers</span></div>
     </div>
 @endsection
