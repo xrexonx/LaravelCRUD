@@ -1,14 +1,32 @@
 <br>
 <div class="row center-align fadeMeIn">
-    <a class="modal-trigger waves-effect waves-light btn" ng-click="actions.openModal()">Create Project</a>
+    <a class="modal-trigger waves-effect waves-light btn" ng-click="actions.openModal()">Add Property</a>
 </div>
-<div ng-include="'views/modals/addProject.html'" ></div>
+<div ng-include="'views/modals/addProperty.html'" ></div>
 	
 <ul class="collection unknownList with-header">
     <li class="collection-item"><h4>Unknown List</h4></li>
     <li class="collection-item" ng-repeat="list in projectList">
         <a ui-sref="project({ id: {{list.id}}, view: 'Project' })" class="ink">{{list.projectName}}</a>
     </li>
-
+<!--     <li class="collection-item">
+    	<a ui-sref="" class="ink">Sample</a>
+    </li>
+    <li class="collection-item">
+    	<a ui-sref="" class="ink">Sample</a>
+    </li>
+    <li class="collection-item">
+    	<a ui-sref="" class="ink">Sample</a>
+    </li>
+    <li class="collection-item">
+    	<a ui-sref="" class="ink">Sample</a>
+    </li>
+    <li class="collection-item">
+    	<a ui-sref="" class="ink">Sample</a>
+    </li>
+    <li class="collection-item">
+    	<a ui-sref="" class="ink">Sample</a>
+    </li>
+ -->
 </ul>
 <div ng-if="list == ''" class="card-panel center-align blue-grey lighten-1">No unknown project yet..</div>

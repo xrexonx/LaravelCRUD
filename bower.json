@@ -28,6 +28,7 @@
     "materialize": "~0.97.2",
     "angular": "~1.4.7",
     "angular-ui-router": "~0.2.15",
-    "angular-string-helper": "~1.0.0"
+    "angular-string-helper": "~1.0.0",
+    "rdatediff": "dateDiff#*"
   }
 }

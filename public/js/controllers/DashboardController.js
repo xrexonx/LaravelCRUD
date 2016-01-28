@@ -15,7 +15,7 @@
                     vm.projectList = oProject;
                 },
                 openModal: function () {
-                    Utils.openModal('addProject');
+                    Utils.openModal('addProperty');
                 },
                 create: function () {
                     Project

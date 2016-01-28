@@ -55,7 +55,7 @@ return [
         'mysql' => [
             'driver'    => 'mysql',
             'host'      => 'localhost',
-            'database'  => 'rexdatabase',
+            'database'  => 'realstateapp',
             'username'  => 'root',
             'password'  => '',
             'charset'   => 'utf8',

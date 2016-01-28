@@ -1,7 +1,9 @@
 <nav>
     <div class="nav-wrapper teal darken-2">
-        <a href="#" class="left brand-logo">Dashboard</a>
+        <a href="#" class="left brand-logo">Real State</a>
         <ul id="nav-mobile" class="right">
+            <li><a href="/dashboard">View List</a></li>
+            <li><a href="property/create">Add Property</a></li>
             <li>
                 <a class='dropdown-button' href='#' data-activates='dropdown1'>{{ $name }} <span class="teal-text darken-4-text">&#x25BC</span></a>
                 <ul id='dropdown1' class='dropdown-content'>

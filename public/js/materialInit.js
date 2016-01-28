@@ -5,4 +5,7 @@ $(function(){
     $('.modal-trigger').leanModal();
     $('select').material_select();
     $(".button-collapse").sideNav();
+
+
+    alert('alert');
 });
